@@ -1,0 +1,22 @@
+# VisualStudio files
+RockBuster.sln
+
+.vs/
+Debug/
+Release/
+
+RockBuster/Release
+RockBuster/Debug
+
+RockBuster/RockBuster.vcxproj
+RockBuster/RockBuster.vcxproj.filters
+RockBuster/RockBuster.vcxproj.user
+
+# Executable
+RockBuster/RockBuster.exe
+
+# External libraries
+External/
+
+# Installer project
+Installer/

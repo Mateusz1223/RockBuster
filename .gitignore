@@ -12,8 +12,20 @@ RockBuster/RockBuster.vcxproj
 RockBuster/RockBuster.vcxproj.filters
 RockBuster/RockBuster.vcxproj.user
 
-# Executable
+# Executable and dlls
 RockBuster/RockBuster.exe
+
+RockBuster/openal32.dll
+RockBuster/sfml-audio-2.dll
+RockBuster/sfml-audio-d-2.dll
+RockBuster/sfml-graphics-2.dll
+RockBuster/sfml-graphics-d-2.dll
+RockBuster/sfml-network-2.dll
+RockBuster/sfml-network-d-2.dll
+RockBuster/sfml-system-2.dll
+RockBuster/sfml-system-d-2.dll
+RockBuster/sfml-window-2.dll
+RockBuster/sfml-window-d-2.dll
 
 # External libraries
 External/

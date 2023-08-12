@@ -1,0 +1,5 @@
+AddHandler application/x-httpd-php72 php
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://rockbuster.piaseckimateusz.pl%{REQUEST_URI} [L,NE,R=301]
